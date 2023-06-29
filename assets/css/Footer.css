@@ -1,0 +1,123 @@
+.btn-primary {
+  border-radius: 0;
+  background: #538EDB;
+  font-family: Rubik;
+  text-align: center;
+  border-style: none;
+  border-right-style: none;
+}
+
+@media (min-width: 992px) {
+  #sidebar {
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  #content-area {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main-elem-r1-c2 {
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 300px) {
+  img {
+  }
+}
+
+.carousel-control-next-icon {
+  margin-right: -100%;
+}
+
+.slider-container {
+  margin-bottom: 74px;
+  padding: 0px;
+}
+
+.text-container {
+}
+
+@media (max-width: 360px) {
+  .text-container {
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-container {
+  }
+}
+
+@media (min-width: 300px) {
+  .h1-product {
+  }
+}
+
+@media (min-width: 300px) {
+  .p-product {
+  }
+}
+
+@media (min-width: 992px) {
+  .text-container {
+  }
+}
+
+.pic-container {
+}
+
+.img-product {
+}
+
+#slogan-text {
+  padding-top: 10px;
+}
+
+#hidden-block {
+  display: none;
+}
+
+#contactArea {
+  display: none;
+}
+
+.card-texts {
+  font-size: 13px;
+  font-family: Rubik, sans-serif;
+}
+
+.card-btns {
+  background: #003477;
+  color: #ffffff;
+  font-family: Rubik, sans-serif;
+  border-radius: 5px;
+}
+
+.card-headers {
+  color: rgb(0,52,119);
+  background: rgb(238,243,255);
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-family: Rubik, sans-serif;
+  font-size: 12px;
+  min-height: 5em;
+}
+
+#listInput {
+  padding-top: 64px;
+  font-family: 'Rubik';
+  color: #003477;
+}
+
