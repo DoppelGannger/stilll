@@ -373,6 +373,7 @@ a:hover {
 
 body {
   color: darkblue;
+  background: linear-gradient(-109deg, rgba(255,255,255,0.27), rgba(255,255,255,0.38) 78%), url("../../assets/img/fon.png") left bottom / contain no-repeat;
 }
 
 .bs-icon {
@@ -1575,5 +1576,8 @@ div {
   .activenav.navfont {
     font-size: 15px;
   }
+}
+
+.body {
 }
 
