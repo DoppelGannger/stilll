@@ -1404,19 +1404,6 @@ a:hover {
   }
 }
 
-#nav-sticky.fixed-top {
-  position: fixed;
-  top: 0;
-  max-width: 1110px;
-  margin: auto;
-}
-
-.nav-sticky {
-  position: sticky;
-  width: 100%;
-  top: 0px;
-}
-
 #headerUpper {
   width: 100%;
   margin: 0px;
@@ -1538,9 +1525,6 @@ a:hover {
   margin-top: 15px;
 }
 
-div {
-}
-
 #slider-100 {
   max-width: 1110px;
 }
@@ -1550,11 +1534,6 @@ div {
   color: rgb(0,52,119);
   margin-bottom: 0px;
   font-size: 15px;
-}
-
-@media (max-width: 768px) {
-  .footer {
-  }
 }
 
 @media (min-width: 768px) {
@@ -1570,15 +1549,32 @@ div {
   }
 }
 
-.navfont {
-}
-
 @media (max-width: 768px) {
   .activenav.navfont {
     font-size: 15px;
   }
 }
 
-.body {
+@media (max-width: 576px) {
+  #fourBtn {
+    display: none;
+  }
+}
+
+#nav-wrapp {
+  z-index: 5;
+}
+
+@media (max-width: 576px) {
+  #nav-wrapp {
+    width: 100vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  #nav-barr-mob {
+    padding: 0px;
+  }
 }
 
